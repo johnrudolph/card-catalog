@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Catalog</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+
+  <header id="topbar">
+    <div class="brand">Card Catalog</div>
+    <button id="randomScopeBtn" title="Jump to a random card within the current game/set">🎲 Random card</button>
+    <button id="randomBtn" title="Jump to a random card in a random game">🎲 Random walk</button>
+  </header>
+
+  <div id="mobileBar">
+    <button id="mobileBackBtn">&larr;</button>
+    <span id="mobileBarTitle">Card Catalog</span>
+    <button id="mobileRandomScopeBtn" title="Random card in current scope">🎲</button>
+    <button id="mobileRandomBtn" title="Random walk across all games">🎲🎲</button>
+  </div>
+
+  <div id="body">
+    <nav id="gamePane">
+      <div id="gameList"></div>
+    </nav>
+
+    <nav id="setPane">
+      <div id="setPaneHeader"></div>
+      <div id="setList"></div>
+    </nav>
+
+    <main id="cardListPane">
+      <div id="cardListHeader"></div>
+      <div id="searchWrap">
+        <input id="search" type="text" placeholder="Search name or text...">
+      </div>
+      <div id="cardList"></div>
+    </main>
+
+    <aside id="detailPane">
+      <div id="detailEmpty">Pick a game, then a set, then a card — or hit a Random button.</div>
+      <div id="detailContent" class="hidden"></div>
+    </aside>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

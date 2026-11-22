@@ -1,0 +1,149 @@
+[
+  {
+    "id": "magic",
+    "name": "Magic: The Gathering",
+    "file": "data/magic.json",
+    "count": 36217
+  },
+  {
+    "id": "netrunner",
+    "name": "Android: Netrunner",
+    "file": "data/netrunner.json",
+    "count": 2052
+  },
+  {
+    "id": "arkham",
+    "name": "Arkham Horror: The Card Game",
+    "file": "data/arkham.json",
+    "count": 1767
+  },
+  {
+    "id": "dominion",
+    "name": "Dominion",
+    "file": "data/dominion.json",
+    "count": 817
+  },
+  {
+    "id": "pandemic",
+    "name": "Pandemic",
+    "file": "data/pandemic.json",
+    "note": "partial, unverified text in later expansions",
+    "count": 40
+  },
+  {
+    "id": "keyforge",
+    "name": "KeyForge",
+    "file": "data/keyforge.json",
+    "note": "Call of the Archons only",
+    "count": 3721
+  },
+  {
+    "id": "ascension",
+    "name": "Ascension",
+    "file": "data/ascension.json",
+    "count": 760
+  },
+  {
+    "id": "star-realms",
+    "name": "Star Realms",
+    "file": "data/star-realms.json",
+    "count": 374
+  },
+  {
+    "id": "7wonders",
+    "name": "7 Wonders",
+    "file": "data/7wonders.json",
+    "note": "Cities & Armada age-decks not included",
+    "count": 236
+  },
+  {
+    "id": "smashup",
+    "name": "Smash Up",
+    "file": "data/smashup.json",
+    "note": "27 of 80+ factions covered",
+    "count": 387
+  },
+  {
+    "id": "spirit-island",
+    "name": "Spirit Island",
+    "file": "data/spirit-island.json",
+    "count": 382
+  },
+  {
+    "id": "race-for-the-galaxy",
+    "name": "Race for the Galaxy",
+    "file": "data/race-for-the-galaxy.json",
+    "note": "text is a paraphrase of game-engine effect codes, not official wording",
+    "count": 249
+  },
+  {
+    "id": "gloomhaven",
+    "name": "Gloomhaven",
+    "file": "data/gloomhaven.json",
+    "count": 1580
+  },
+  {
+    "id": "pandemic-legacy",
+    "name": "Pandemic Legacy",
+    "file": "data/pandemic-legacy.json",
+    "note": "thin sample (25 of 150+ legacy cards), text paraphrased from spoiler blogs not verbatim",
+    "count": 25
+  },
+  {
+    "id": "marvel-champions",
+    "name": "Marvel Champions: The Card Game",
+    "file": "data/marvel-champions.json",
+    "count": 1858
+  },
+  {
+    "id": "lotr-lcg",
+    "name": "The Lord of the Rings: The Card Game",
+    "file": "data/lotr-lcg.json",
+    "count": 1312
+  },
+  {
+    "id": "wingspan",
+    "name": "Wingspan",
+    "file": "data/wingspan.json",
+    "count": 378
+  },
+  {
+    "id": "agricola",
+    "name": "Agricola",
+    "file": "data/agricola.json",
+    "count": 623
+  },
+  {
+    "id": "glory-to-rome",
+    "name": "Glory to Rome",
+    "file": "data/glory-to-rome.json",
+    "count": 54
+  },
+  {
+    "id": "aeons-end",
+    "name": "Aeon's End",
+    "file": "data/aeons-end.json",
+    "note": "Core/War Eternal/New Age/Legacy of Gravehold only",
+    "count": 79
+  },
+  {
+    "id": "dune-imperium",
+    "name": "Dune: Imperium",
+    "file": "data/dune-imperium.json",
+    "note": "some card text synthesized from icon attributes, not verbatim; most Leader cards missing",
+    "count": 434
+  },
+  {
+    "id": "lords-of-waterdeep",
+    "name": "Lords of Waterdeep",
+    "file": "data/lords-of-waterdeep.json",
+    "count": 192
+  },
+  {
+    "id": "cosmic-encounter",
+    "name": "Cosmic Encounter",
+    "file": "data/cosmic-encounter.json",
+    "note": "50 official base-game powers + 287 from an unofficial decades-old fan compilation (clearly separated)",
+    "count": 337
+  }
+]
