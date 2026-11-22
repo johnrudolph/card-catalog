@@ -145,5 +145,12 @@
     "file": "data/cosmic-encounter.json",
     "note": "50 official base-game powers + 287 from an unofficial decades-old fan compilation (clearly separated)",
     "count": 337
+  },
+  {
+    "id": "small-world",
+    "name": "Small World",
+    "file": "data/small-world.json",
+    "note": "races & special powers, not cards — Base Game, Underground, Power Pack 1 (Be Not Afraid.../A Spider's Web) & Power Pack 2 (Royal Bonus/Grand Dames/Cursed!); Underground Relics & Popular Places included; Tales & Legends, Realms, A Spoonful of Luck and Sky Islands not covered (no new races/powers)",
+    "count": 120
   }
 ]
