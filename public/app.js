@@ -299,6 +299,10 @@ function showCard(entry, pushHistory) {
       .join('');
   }
 
+  const visibleCards = getVisibleCards();
+  const posIdx = visibleCards.findIndex((entry) => cardKey(entry) === state.activeCardKey);
+  const countLabel = posIdx === -1 ? '' : `Card ${posIdx + 1} of ${visibleCards.length}`;
+
   content.innerHTML = `
     <div class="dc-game">${game.name}</div>
     <div class="dc-set">${entry.setName}</div>
@@ -314,8 +318,11 @@ function showCard(entry, pushHistory) {
     </div>
     <div class="dc-hint">↑ / ↓ to move through this list · ← / → to switch columns</div>
     <div class="dc-cycle">
-      <button id="prevCardBtn" aria-label="Previous card">&uarr;</button>
-      <button id="nextCardBtn" aria-label="Next card">&darr;</button>
+      <div class="dc-count">${countLabel}</div>
+      <div class="dc-cycle-buttons">
+        <button id="prevCardBtn" aria-label="Previous card">&uarr;</button>
+        <button id="nextCardBtn" aria-label="Next card">&darr;</button>
+      </div>
     </div>
   `;
   el('backBtn').addEventListener('click', goBack);
